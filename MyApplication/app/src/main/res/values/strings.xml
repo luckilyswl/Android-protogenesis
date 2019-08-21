@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="msg_no_camera">请求失败！</string>
+    <string name="take_photo">拍照</string>
+    <string name="choose_from_album">选择本地相册图片</string>
+</resources>

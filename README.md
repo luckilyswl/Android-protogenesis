@@ -3,20 +3,20 @@
 
 
 首页
-<img src="首页.png" width="540" height="1080" border="0" alt="">
+<img src="首页.png" width="270" height="540" border="0" alt="">
 
 
 电话
-<img src="拨打电话.png" width="1080" height="2160" border="0" alt="">
+<img src="拨打电话.png" width="270" height="540" border="0" alt="">
 
 
 相册
-<img src="相册.jpg" width="540" height="1080" border="0" alt="">
+<img src="相册.jpg" width="270" height="540" border="0" alt="">
 
 
 照相机
-<img src="拍照与相册.jpg" width="540" height="1080" border="0" alt="">
+<img src="拍照与相册.jpg" width="270" height="540" border="0" alt="">
 
 
 手电筒
-<img src="手电筒.png" width="540" height="1080" border="0" alt="">
+<img src="手电筒.png" width="270" height="540" border="0" alt="">

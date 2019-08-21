@@ -56,14 +56,14 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:id="@+id/btn_button22"
-            android:text="按钮5"/>
+            android:text="蓝牙"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:id="@+id/btn_button33"
-            android:text="按钮6"/>
+            android:text="短信"/>
 
     </LinearLayout>
 

@@ -1,11 +1,13 @@
 package com.qingshangzuo.myapplication;
 
+import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.qingshangzuo.myapplication.bluetooth.BluetoothActivity;
 import com.qingshangzuo.myapplication.flashlight.FlashLightActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -53,6 +55,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, FlashLightActivity.class);   // 意图对象：动作、数据
+                startActivity(intent);  // 激活Activity组件
+            }
+        });
+
+        //蓝牙
+        btnButton22 = findViewById(R.id.btn_button22);
+        btnButton22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BluetoothActivity.class);   // 意图对象：动作、数据
                 startActivity(intent);  // 激活Activity组件
             }
         });

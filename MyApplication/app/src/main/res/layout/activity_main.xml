@@ -63,7 +63,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:id="@+id/btn_button33"
-            android:text="短信"/>
+            android:text="录视频"/>
 
     </LinearLayout>
 

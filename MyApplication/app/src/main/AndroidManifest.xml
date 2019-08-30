@@ -28,9 +28,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".video.PlayerActivity"></activity>
+        <activity android:name=".radio.PlayRadioActivity"></activity>
+        <activity android:name=".radio.RecordView" />
+        <activity android:name=".video.PlayerActivity" />
         <activity android:name=".video.VideoActivity" />
-        <activity android:name=".bluetooth.BluetoothActivity" />
+        <activity android:name=".BluetoothActivity" />
         <activity android:name=".flashlight.AboutActivity" />
         <activity android:name=".flashlight.FlashLightActivity" />
         <activity android:name=".CameraActivity" />

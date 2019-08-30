@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.qingshangzuo.myapplication.bluetooth.BluetoothActivity;
+import com.qingshangzuo.myapplication.radio.PlayRadioActivity;
 import com.qingshangzuo.myapplication.video.VideoActivity;
 import com.qingshangzuo.myapplication.flashlight.FlashLightActivity;
 
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnButton11;
     private Button btnButton22;
     private Button btnButton33;
+    private Button btnButton331;
 
 
     @Override
@@ -81,6 +82,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, VideoActivity.class);   // 意图对象：动作、数据
+                startActivity(intent);  // 激活Activity组件
+            }
+        });
+
+        //录音
+        btnButton331 = findViewById(R.id.btn_button331);
+        btnButton331.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PlayRadioActivity.class);   // 意图对象：动作、数据
                 startActivity(intent);  // 激活Activity组件
             }
         });

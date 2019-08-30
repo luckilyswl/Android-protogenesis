@@ -1,4 +1,4 @@
-package com.qingshangzuo.myapplication.bluetooth;
+package com.qingshangzuo.myapplication;
 
 
 import android.bluetooth.BluetoothAdapter;

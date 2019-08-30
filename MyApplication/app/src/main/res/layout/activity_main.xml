@@ -51,12 +51,26 @@
             android:id="@+id/btn_button11"
             android:text="手电筒"/>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:id="@+id/btn_button22"
-            android:text="蓝牙"/>
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_button22"
+                android:text="蓝牙"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_button221"
+                android:text="wifi"/>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"

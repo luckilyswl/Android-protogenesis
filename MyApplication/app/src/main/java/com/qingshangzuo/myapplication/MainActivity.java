@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.qingshangzuo.myapplication.radio.PlayRadioActivity;
 import com.qingshangzuo.myapplication.video.VideoActivity;
 import com.qingshangzuo.myapplication.flashlight.FlashLightActivity;
+import com.qingshangzuo.myapplication.wifi.WiFiActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnButton3;
     private Button btnButton11;
     private Button btnButton22;
+    private Button btnButton221;
     private Button btnButton33;
     private Button btnButton331;
 
@@ -72,6 +74,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, BluetoothActivity.class);   // 意图对象：动作、数据
+                startActivity(intent);  // 激活Activity组件
+            }
+        });
+
+        //wifi
+        btnButton221 = findViewById(R.id.btn_button221);
+        btnButton221.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WiFiActivity.class);   // 意图对象：动作、数据
                 startActivity(intent);  // 激活Activity组件
             }
         });

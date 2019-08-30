@@ -28,4 +28,8 @@ dependencies {
 
     //implementation 'com.github.Othershe:NiceDialog:1.1.1'
     //implementation 'cn.jzvd:jiaozivideoplayer:6.0.1'
+
+    //wifi
+    implementation 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
+    implementation 'com.hwangjr.rxbus:rxbus:1.0.6'
 }
